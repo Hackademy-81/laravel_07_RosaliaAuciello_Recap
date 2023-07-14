@@ -1,0 +1,1 @@
+timeout_id = setTimeout(function(){document.getElementById('adv').style.display="none"}, 3000);
