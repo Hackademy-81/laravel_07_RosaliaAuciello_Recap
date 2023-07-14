@@ -1,4 +1,4 @@
-<div class="card mt-5">
+<div class="card mt-5 cardCustom">
     <img src="{{Storage::url($article['img'])}}" class="card-img-top" alt="...">
     <div class="card-body d-flex flex-column justify-content-center align-items-center">
       <h5 class="card-title fw-bold text-center">{{$article['title']}}</h5>

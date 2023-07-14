@@ -1,0 +1,23 @@
+.header{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.763), rgba(0, 0, 0, 0.516)), url(https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80); */
+    background-size: 150%;
+    animation-name: moviment;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+@keyframes moviment{
+    0%{background-position: right;}
+    100%{background-position: left;}
+}
+.cardCustom{
+    box-shadow: 5px 7px 5px;
+    transition: 0.5s;
+}
+
+.cardCustom:hover{
+    box-shadow: 0px 0px 0px;
+    transform: scale(1.1);
+}
